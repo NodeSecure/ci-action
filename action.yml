@@ -1,5 +1,7 @@
-name: 'NodeSecure CI'
+name: 'NodeSecure Continuous Integration'
 description: 'Pipeline of tools that identify dependencies vulnerabilities and track malicious code'
+author: 'NodeSecure'
+
 inputs:
   directory:
     description: 'Root directory from which the analyses will be run'
@@ -20,6 +22,11 @@ inputs:
     description: 'Pipeline reporters'
     required: false
     default: 'console'
+
 runs:
   using: 'node16'
   main: 'index.js'
+
+branding:
+  icon: 'shield'
+  color: purple

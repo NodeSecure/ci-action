@@ -1,0 +1,44 @@
+{
+  "name": "@nodesecure/ci-action",
+  "version": "1.0.0",
+  "description": "Pipeline of tools that identify dependencies vulnerabilities and track malicious code",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "security",
+    "cli",
+    "sast",
+    "scanner",
+    "static",
+    "code",
+    "analysis",
+    "node_modules",
+    "tree",
+    "npm",
+    "registry",
+    "graph",
+    "visualization",
+    "dependencies",
+    "ci",
+    "continuous integration"
+  ],
+  "author": "NodeSecure",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NodeSecure/ci-action.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NodeSecure/ci-action/issues"
+  },
+  "homepage": "https://github.com/NodeSecure/ci-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@nodesecure/ci": "^1.2.1"
+  }
+}

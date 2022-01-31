@@ -18,7 +18,7 @@ Please refer to the [@nodesecure/ci](https://github.com/NodeSecure/ci) documenta
 Simply add this action to your workflow
 
 ```yaml
-uses: NodeSecure/ci-action@v1.0
+uses: NodeSecure/ci-action@v1
 ```
 
 ### Add a new dedicated Workflow
@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: NodeSecure/ci-action@v1.0
+      - uses: NodeSecure/ci-action@v1
         with:
             strategy: npm
             vulnerabilities: medium

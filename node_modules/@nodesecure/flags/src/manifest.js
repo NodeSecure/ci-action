@@ -5,7 +5,7 @@ export const FLAGS = {
   externalCapacity: {
     emoji: "🌍",
     title: "hasExternalCapacity",
-    tooltipDescription: "The package use at least one Node.js dependency capable to communicate outside or to establish a listening server."
+    tooltipDescription: "The package uses at least one Node.js core dependency capable to establish communication outside of localhost"
   },
   warnings: {
     emoji: "🚧",
@@ -15,47 +15,47 @@ export const FLAGS = {
   nativeCode: {
     emoji: "🐲",
     title: "hasNativeCode",
-    tooltipDescription: "The package use native components (package, file, configuration)."
+    tooltipDescription: "The package uses and runs C++ or Rust N-API code"
   },
   customResolver: {
     emoji: "💎",
     title: "hasCustomResolver",
-    tooltipDescription: "The package has dependencies that are not packages."
+    tooltipDescription: "The package has dependencies who do not resolve on a registry (git, file, ssh etc..)"
   },
   noLicense: {
     emoji: "📜",
     title: "hasNoLicense",
-    tooltipDescription: "The package does not seem to have a license."
+    tooltipDescription: "The package does not have a license"
   },
   multipleLicense: {
     emoji: "📚",
     title: "hasMultipleLicenses",
-    tooltipDescription: "The package has multiple licenses in multiple files"
+    tooltipDescription: "The package has licenses in multiple locations (files or manifest)"
   },
   minifiedCode: {
     emoji: "🔬",
     title: "hasMinifiedCode",
-    tooltipDescription: "The package seems to have files that are minified/uglified."
+    tooltipDescription: "The package has minified and/or uglified files"
   },
   isDeprecated: {
     emoji: "⛔️",
     title: "isDeprecated",
-    tooltipDescription: "The package is deprecated."
+    tooltipDescription: "The package has been deprecated on NPM"
   },
   manyPublishers: {
     emoji: "👥",
     title: "hasManyPublishers",
-    tooltipDescription: "The package has several publishers."
+    tooltipDescription: "The package has several publishers"
   },
   hasScript: {
     emoji: "📦",
     title: "hasScript",
-    tooltipDescription: "has `post` and/or `pre` (un)install npm script"
+    tooltipDescription: "The package has `post` and/or `pre` (un)install npm script"
   },
   indirectDependencies: {
     emoji: "🌲",
     title: "hasIndirectDependencies",
-    tooltipDescription: "The package have indirect dependencies."
+    tooltipDescription: "The package has indirect dependencies"
   },
   isGit: {
     emoji: "☁️",
@@ -65,27 +65,27 @@ export const FLAGS = {
   vulnerabilities: {
     emoji: "🚨",
     title: "hasVulnerabilities",
-    tooltipDescription: "The package have one or many vulnerabilities."
+    tooltipDescription: "The package has one or many vulnerabilities"
   },
   missingOrUnusedDependency: {
     emoji: "👀",
     title: "hasMissingOrUnusedDependency",
-    tooltipDescription: "A dependency is missing in package.json or a dependency is installed but never used!"
+    tooltipDescription: "A dependency is missing in package.json or a dependency is installed but never used"
   },
   isDead: {
     emoji: "💀",
     title: "isDead",
-    tooltipDescription: "The dependency has not received update from at least one year!"
+    tooltipDescription: "The dependency has not received update from at least one year"
   },
   bannedFile: {
     emoji: "⚔️",
     title: "hasBannedFile",
-    tooltipDescription: "The project has at least one sensitive file."
+    tooltipDescription: "The project has at least one sensitive file"
   },
   outdated: {
     emoji: "⌚️",
     title: "isOutdated",
-    tooltipDescription: "The current package version is not equal to the package latest version!"
+    tooltipDescription: "The current package version is not equal to the package latest version"
   },
   duplicated: {
     emoji: "🎭",

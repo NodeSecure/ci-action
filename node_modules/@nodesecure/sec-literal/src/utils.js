@@ -10,9 +10,14 @@ import { toValue } from "./literal.js";
  * @returns {boolean}
  */
 export function isSvg(strOrLiteral) {
-  const value = toValue(strOrLiteral);
+  try {
+    const value = toValue(strOrLiteral);
 
-  return isStringSvg(value) || isSvgPath(value);
+    return isStringSvg(value) || isSvgPath(value);
+  }
+  catch {
+    return false;
+  }
 }
 
 /**

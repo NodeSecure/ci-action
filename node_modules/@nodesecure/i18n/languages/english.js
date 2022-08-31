@@ -116,3 +116,15 @@ export const warnings = {
   disable_scarf: "This dependency could collect data against your will so think to disable it with the env var: SCARF_ANALYTICS",
   keylogging: "This dependency can retrieve your keyboard and mouse inputs. It can be used for 'keylogging' attacks/malwares."
 };
+
+export const sast_warnings = {
+  ast_error: "An error occured when parsing the JavaScript code with meriyah. It mean that the conversion from string to AST as failed. If you encounter such an error, please open an issue here.",
+  unsafe_import: "Unable to follow an import (require, require.resolve) statement/expr.",
+  unsafe_regex: "A RegEx as been detected as unsafe and may be used for a ReDoS Attack.",
+  unsafe_stmt: "Usage of dangerous statement like eval() or Function(\"\").",
+  unsafe_assign: "Assignment of a protected global like process or require.",
+  encoded_literal: "An encoded literal has been detected (it can be an hexa value, unicode sequence, base64 string etc)",
+  short_identifiers: "This mean that all identifiers has an average length below 1.5. Only possible if the file contains more than 5 identifiers.",
+  suspicious_literal: "This mean that the sum of suspicious score of all Literals is bigger than 3.",
+  obfuscated_code: "There's a very high probability that the code is obfuscated..."
+}

@@ -18,4 +18,4 @@ jobs:
       - name: "@nodesecure/ci analysis"
         uses: ./ 
         with:
-          warnings: error
+          warnings: warning

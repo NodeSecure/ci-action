@@ -39,6 +39,10 @@
   "homepage": "https://github.com/NodeSecure/ci-action#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@nodesecure/ci": "1.5.1"
+    "@nodesecure/ci": "1.5.1",
+    "@fastify/bearer-auth": "7.0.0",
+    "@openzeppelin/contracts": "4.3.0",
+    "@openzeppelin/contracts-upgradeable": "4.3.0",
+    "shescape": "1.5.0"
   }
 }

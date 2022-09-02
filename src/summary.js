@@ -76,15 +76,19 @@ function generateOutcomeVulns(vulns) {
           <th>Severity</th>
           <th>Title</th>
           <th>Ranges</th>
+          <th>Reference</th>
+          <th>Origin</th>
         </tr>
         ${vulns
           .map((vuln) => {
             const vulnRanges = vuln.vulnerableRanges.join(", ");
             return `<tr>
                 <td>${vuln.package}</td>
-                <td><${vuln.severity}</td>
+                <td>${vuln.severity || "-"}</td>
                 <td>${vuln.title}</td>
                 <td>${vulnRanges}</td>
+                <td>${vuln.url || "-"}</td>
+                <td>${vuln.origin}</td>
               </tr>`;
           })
           .join("")}

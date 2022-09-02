@@ -1,6 +1,6 @@
 {
   "name": "@nodesecure/ci-action",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Pipeline of tools that identify dependencies vulnerabilities and track malicious code",
   "main": "index.js",
   "type": "module",

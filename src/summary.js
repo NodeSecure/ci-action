@@ -105,7 +105,7 @@ export async function generateSummary(report) {
   const depsWarnings = report.data.dependencies.warnings;
   const globalWarnings = report.data.warnings;
 
-  await core.summary
+  core.summary
     .addImage(kNodeSecureLogoSrc, "NodeSecure", { width: 50, height: 50 })
     .addHeading(generateOutcomeTitle(report), 3)
     .addTable([
@@ -123,31 +123,31 @@ export async function generateSummary(report) {
     .addBreak();
 
   if (globalWarnings.length > 0) {
-    await core.summary.addDetails(
+    core.summary.addDetails(
       `[${generateOutcomeEmoji(globalWarnings)}] Global warnings:`,
       generateOutcomeGlobalWarnings(globalWarnings)
     );
-    await core.summary.addSeparator();
+    core.summary.addSeparator();
   }
 
   if (depsWarnings.length > 0) {
-    await core.summary.addDetails(
+    core.summary.addDetails(
       `[${generateOutcomeEmoji(depsWarnings, true)}] Dependencies warnings:`,
       generateOutcomeDepsWarnings(depsWarnings)
     );
-    await core.summary.addSeparator();
+    core.summary.addSeparator();
   }
 
   if (vulns.length > 0) {
-    await core.summary.addDetails(
+    core.summary.addDetails(
       `[${generateOutcomeEmoji(vulns)}] Dependencies vulnerabilities:`,
       generateOutcomeVulns(vulns)
     );
-    await core.summary.addSeparator();
+    core.summary.addSeparator();
   }
 
   for (const badgeSrc of kActionBadges) {
-    await core.summary.addImage(badgeSrc);
+    core.summary.addImage(badgeSrc);
   }
 
   await core.summary

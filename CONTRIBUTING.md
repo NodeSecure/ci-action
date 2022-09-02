@@ -1,5 +1,5 @@
 # Contributing to NodeSecure
-
+    
 Contributions to NodeSecure include code, documentation, answering user questions and
 running the project's infrastructure
 

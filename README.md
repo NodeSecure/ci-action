@@ -3,12 +3,14 @@
 ![version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/NodeSecure/ci-action/master/package.json&query=$.version&label=Version)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/NodeSecure/ci-action/commit-activity)
 [![mit](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/NodeSecure/ci-action/blob/master/LICENSE)
-
+[![OpenSSF
+Scorecard](https://api.securityscorecards.dev/projects/github.com/NodeSecure/ci-action/badge)](https://api.securityscorecards.dev/projects/github.com/NodeSecure/ci-action)
+![build](https://img.shields.io/github/actions/workflow/status/NodeSecure/ci-action/node.js.yml)
 
 @nodesecure/ci brings together a set of tools to identify dependencies vulnerabilities 
 and track most common malicious code and patterns.
 
-Please refer to the [@nodesecure/ci](https://github.com/NodeSecure/ci) documentation to see more about the project.
+Please refer to the [@nodesecure/ci](https://github.com/NodeSecure/ci-action) documentation to see more about the project.
 
 ## Usage
 ### Add to an existing Workflow

@@ -19,7 +19,7 @@ Please refer to the [@nodesecure/ci](https://github.com/NodeSecure/ci-action) do
 Simply add this action to your workflow
 
 ```yaml
-uses: NodeSecure/ci-action@v1
+uses: NodeSecure/ci-action@177c57fe32c75cafabe87f6e4515d277cc37ae6c #1.4.1
 ```
 
 ### Add a new dedicated Workflow
@@ -37,13 +37,58 @@ jobs:
     name: "Analysis"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: NodeSecure/ci-action@v1
+      - uses: actions/checkout@v3
+      - uses: NodeSecure/ci-action@177c57fe32c75cafabe87f6e4515d277cc37ae6c #1.4.1
         with:
           strategy: npm
           vulnerabilities: medium
           warnings: off
           reporters: console
+```
+
+In case you don't have a **package-lock.json** file, it will be necessary to install the dependencies with your package manager:
+
+```yaml
+name: "NodeSecure Continuous Integration"
+on: [push]
+
+jobs:
+  validation:
+    name: "Analysis"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: install dependencies
+        run: npm install
+      - uses: NodeSecure/ci-action@177c57fe32c75cafabe87f6e4515d277cc37ae6c #1.4.1
+        with:
+          strategy: npm
+          vulnerabilities: medium
+          warnings: off
+          reporters: console
+```
+
+## Securing your workflow
+
+You probably want to [ensure your GitHub Actions are pinned to a SHA](https://michaelheap.com/ensure-github-actions-pinned-sha/).
+
+Using actions by commit hash reference is a remediation for, when actions are compromised or go under a dependency confusion attack, you are not using the malicious version. This remediation along with using least privilege principle for each action in the workflow, makes it harder for a possible action hijacker to have high access to your repository.
+
+We recommend using [https://app.stepsecurity.io/](https://app.stepsecurity.io/) to secure your workflows (they are able to generate a pull-request and do the heavy lifting for you).
+
+It is also a good practice to enable the update of workflows using dependabot:
+
+```yml
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
 ```
 
 ## Contributors ✨

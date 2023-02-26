@@ -2,1329 +2,1594 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
+    versioning-strategy: widen
     schedule:
-      interval: "daily"
+      interval: "weekly"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
 
   - package-ecosystem: npm
     directory: /node_modules/@actions/core
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@actions/http-client
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@babel/runtime/helpers/esm
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@babel/runtime
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@gar/promisify
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@iarna/toml
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@isaacs/string-locale-compare
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@myunisoft/httpie
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/ci
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/flags
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/fs-walk
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/i18n
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/js-x-ray
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/licenses-conformance
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/npm-registry-sdk
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/ntlp
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/rc
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/scanner/node_modules/@nodesecure/i18n
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/scanner
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/sec-literal
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/utils
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@nodesecure/vuln
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npm/types
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/arborist
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/fs
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/git
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/installed-package-contents
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/map-workspaces
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/metavuln-calculator
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/move-file
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/name-from-folder
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/node-gyp
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/package-json
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/promise-spawn
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/query
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@npmcli/run-script
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@slimio/async-cli-spinner/node_modules/kleur
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@slimio/async-cli-spinner
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@slimio/config
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@slimio/github
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@slimio/is
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@slimio/lock
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@slimio/wcwidth
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/@tootallnate/once
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/abbrev
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/agent-base
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/agentkeepalive
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/aggregate-error
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ajv
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ansi-regex
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ansi-styles
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/aproba
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/are-we-there-yet
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/asap
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/astral-regex
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/balanced-match
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/base64-js
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/bin-links/node_modules/npm-normalize-package-bin
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/bin-links
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/bl
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/brace-expansion
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/buffer
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/builtins
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/cacache
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/chownr
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/clean-stack
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/cli-cursor
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/cli-spinners
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/cmd-shim
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/color-convert
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/color-name
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/color-support
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/combine-async-iterators
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/common-ancestor-path
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/concat-map
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/console-control-strings
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/content-type
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/cssesc
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/debug
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/debuglog
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/delegates
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/depd
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/dezalgo
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/eastasianwidth
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/emoji-regex
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/encoding
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/end-of-stream
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/env-paths
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/err-code
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/estree-walker
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/fast-deep-equal
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/fast-xml-parser
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/frequency-set
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/fs-constants
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/fs-minipass
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/fs.realpath
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/function-bind
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/gauge/node_modules/emoji-regex
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/gauge/node_modules/string-width
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/gauge
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/glob
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/graceful-fs
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/has-unicode
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/has
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/hosted-git-info
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/http-cache-semantics
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/http-proxy-agent
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/https-proxy-agent
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/humanize-ms
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/iconv-lite
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ieee754
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ignore-walk
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/imurmurhash
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/indent-string
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/infer-owner
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/inflight
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/inherits
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ip
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/is-base64
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/is-core-module
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/is-fullwidth-code-point
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/is-lambda
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/is-minified-code
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/is-svg
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/isexe
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/itertools
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/json-parse-even-better-errors
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/json-schema-traverse
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/json-stringify-nice
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/jsonparse
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/just-diff-apply
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/just-diff
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/kleur
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/lodash.clonedeep
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/lodash.difference
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/lodash.get
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/lodash.set
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/lodash.truncate
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/lru-cache
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/make-fetch-happen
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/meriyah
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/mimic-fn
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minimatch
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minipass-collect
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minipass-fetch
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minipass-flush
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minipass-json-stream
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minipass-pipeline
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minipass-sized
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minipass
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/minizlib
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/mkdirp-classic
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/mkdirp-infer-owner
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/mkdirp
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/mri
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ms
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/negotiator
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/node-gyp/node_modules/brace-expansion
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/node-gyp/node_modules/glob
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/node-gyp/node_modules/minimatch
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/node-gyp/node_modules/nopt
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/node-gyp
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/node-watch
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/nopt
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/normalize-package-data
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-bundled
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-install-checks
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-normalize-package-bin
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-package-arg
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-packlist/node_modules/npm-bundled
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-packlist/node_modules/npm-normalize-package-bin
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-packlist
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-pick-manifest/node_modules/npm-normalize-package-bin
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-pick-manifest
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npm-registry-fetch
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/npmlog
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/once
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/onetime
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/p-map
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/pacote
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/parse-conflict-json
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/parse-ms
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/path-is-absolute
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/pluralize
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/postcss-selector-parser
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/pretty-ms
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/proc-log
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/promise-all-reject-late
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/promise-call-limit
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/promise-inflight
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/promise-retry
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/pump
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/punycode
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/read-cmd-shim
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/read-package-json-fast
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/read-package-json/node_modules/npm-normalize-package-bin
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/read-package-json
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/readable-stream
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/readdir-scoped-modules
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/regenerator-runtime
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/regexp-tree
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/require-from-string
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/restore-cursor
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/retry
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/rimraf/node_modules/brace-expansion
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/rimraf/node_modules/glob
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/rimraf/node_modules/minimatch
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/rimraf
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/sade
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/safe-buffer
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/safe-regex
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/safer-buffer
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/semver/node_modules/lru-cache
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/semver
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/set-blocking
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/signal-exit
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/slice-ansi
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/smart-buffer
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/socks-proxy-agent
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/socks
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/spdx-correct
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/spdx-exceptions
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/spdx-expression-parse
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/spdx-license-ids
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ssri
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/statuses
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/string-width/node_modules/ansi-regex
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/string-width/node_modules/strip-ansi
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/string-width
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/string_decoder
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/strip-ansi
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/strnum
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/table/node_modules/emoji-regex
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/table/node_modules/string-width
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/table
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/tar-fs/node_modules/chownr
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/tar-fs
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/tar-stream
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/tar
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/treeverse
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ts-pattern
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ts-results
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/ts-results/rxjs-operators
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/tslib/modules
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/tslib
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/tunnel
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/type-fest
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/undici
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/unique-filename
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/unique-slug
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/uri-js
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/util-deprecate
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/uuid
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/validate-npm-package-license
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/validate-npm-package-name
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/walk-up-path
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/which
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/wide-align/node_modules/emoji-regex
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/wide-align/node_modules/string-width
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/wide-align
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/wrappy
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/write-file-atomic
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/yallist
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly
 
   - package-ecosystem: npm
     directory: /node_modules/zen-observable
+    versioning-strategy: widen
     schedule:
-      interval: daily
+      interval: weekly

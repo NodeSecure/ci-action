@@ -5,10 +5,17 @@ updates:
     versioning-strategy: widen
     schedule:
       interval: "weekly"
+    groups:
+      dependencies:
+        dependency-type: "production"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
 
   - package-ecosystem: npm
     directory: /node_modules/@actions/core

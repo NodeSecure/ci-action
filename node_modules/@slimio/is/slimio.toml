@@ -1,4 +1,0 @@
-name = "is"
-version = "1.5.1"
-type = "Package"
-[dependencies]

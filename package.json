@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/NodeSecure/ci-action#readme",
   "dependencies": {
-    "@actions/core": "^2.0.0",
+    "@actions/core": "^3.0.0",
     "@nodesecure/ci": "1.7.0"
   }
 }

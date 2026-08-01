@@ -17,12 +17,12 @@ jobs:
       fail-fast: false
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
+        uses: step-security/harden-runner@bf7454d06d71f1098171f2acdf0cd4708d7b5920 # v2.20.0
         with:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
       - name: checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Install dependencies
         run: npm install --ignore-scripts
       - name: "@nodesecure/ci analysis"
@@ -45,6 +45,6 @@ jobs:
           egress-policy: audit
 
       - name: Merge Dependabot PR
-        uses: fastify/github-action-merge-dependabot@30c3f8f14a4f7b315ba38dbc1b793d27128fef82 # v3.12.0
+        uses: fastify/github-action-merge-dependabot@73ec4cbb5e56df5591eae286972d5b2201ffe90f # v3.15.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
